@@ -1,0 +1,5 @@
+[10-Mar-2017 01:18:36 UTC] PHP Warning:  POST Content-Length of 10155208 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Mar-2017 01:23:39 UTC] PHP Warning:  POST Content-Length of 10155215 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Mar-2017 01:41:03 UTC] PHP Warning:  POST Content-Length of 10155217 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Mar-2017 10:48:48 Asia/Jakarta] PHP Warning:  unlink(../gambar_berita/33693881.JPG): No such file or directory in /home/rumkitbh/public_html/admin/konten/edit_berita.php on line 43
+[27-Mar-2017 07:55:06 Asia/Jakarta] PHP Warning:  unlink(../gambar_berita/85243563.PNG): No such file or directory in /home/rumkitbh/public_html/admin/konten/edit_berita.php on line 43
