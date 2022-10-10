@@ -73,24 +73,36 @@
 					<li><a class="page-scroll" href="#penunjang"><font color="black"><b>Fasilitas Penunjang</b></a></li></font>
 					
                     </ul>
-                    <li>
-                        <a class="page-scroll" href="#about">Jadwal Dokter</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#informasikamar">Informasi Kamar Inap</a>
-                    </li>
-					  <li>
+                   
+					 <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></i> Informasi Pasien <span class="caret"></span></a>
                     <ul class="dropdown-menu" style="a:hover {background-color: #fed136;}">
-					<li><a class="page-scroll" href="#hpk"><font color="black"><b>Hak dan Kewajiban Pasien</b></a></li></font>
-                    <li><a class="page-scroll" href="#alurpendaftaran"><font color="black"><b>Alur Pendaftaran</b></a></li></font>
-					<li><a class="page-scroll" href="#komplain"><font color="black"><b>Prosedur Komplain</b></a></li></font>
+                        <li><a class="page-scroll" href="#about"><font color="black"><b>Jadwal Dokter</b></a></li></font>
+                        <li><a class="page-scroll" href="#informasikamar"><font color="black"><b>Informasi Kamar</b></a></li></font>
+                        <li><a class="page-scroll" href="#hpk"><font color="black"><b>Hak dan Kewajiban Pasien</b></a></li></font>
+                        <li><a class="page-scroll" href="#alurpendaftaran"><font color="black"><b>Alur Pendaftaran</b></a></li></font>
+                        <li><a class="page-scroll" href="#komplain"><font color="black"><b>Prosedur Komplain</b></a></li></font>
                     </ul> 
+
+                    <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></i> Informasi Publik <span class="caret"></span></a>
+                    <ul class="dropdown-menu" style="a:hover {background-color: #fed136;}">
+                        <li><a class="page-scroll" href="#aboute"><font color="black"><b>Informasi 20 Besar Penyakit</b></a></li></font>
+                        <li><a class="page-scroll" href="#informasikamari"><font color="black"><b>Tarif Pelayanan</b></a></li></font>
+                        <li><a class="page-scroll" href="#hpkk"><font color="black"><b>Artikel Kesehatan</b></a></li></font>
+                        <li><a class="page-scroll" href="#alurpendaftarana"><font color="black"><b>Agenda Kegiatan</b></a></li></font>
+                        <li><a class="page-scroll" href="berita /"><font color="black"><b>Berita</b></a></li></font>
+                        <li><a class="page-scroll" href="#hpkk"><font color="black"><b>Karir</b></a></li></font>
+                        <li><a class="page-scroll" href="#alurpendaftarann"><font color="black"><b>PMKP</b></a></li></font>
+                        <li><a class="page-scroll" href="#komplainn"><font color="black"><b>Portal PPID</b></a></li></font>
+                        <li><a class="page-scroll" href="#komplainn"><font color="black"><b>Hasil Survey Kepuasan Masyarakat</b></a></li></font>
+                    </ul> 
+                    
 					<li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></i> Galeri <span class="caret"></span></a>
                     <ul class="dropdown-menu" style="a:hover {background-color: #fed136;}">
-					<li><a class="page-scroll" href="#foto"><font color="black"><b>Galeri Foto</b></a></li></font>
-					<li><a class="page-scroll" href="#video"><font color="black"><b>Galeri Video</b></a></li></font>
+                        <li><a class="page-scroll" href="#foto"><font color="black"><b>Galeri Foto</b></a></li></font>
+                        <li><a class="page-scroll" href="#video"><font color="black"><b>Galeri Video</b></a></li></font>
                     </ul> 
                   
                 </ul>
@@ -111,29 +123,33 @@
         </div>
     </header>
 
-    <!-- Services Section -->
+    <!-- beranda Section -->
     <?php include "konten/beranda.php"; ?>
-
-	 <?php include "konten/igd.php"; ?>
-     <?php include "konten/ralan.php"; ?>
-     <?php include "konten/ranap.php"; ?>
-	 <?php include "konten/penunjang.php"; ?>
 	
-    <!-- Portfolio Grid Section -->
+    <!-- Tentang Section -->
     <?php include "konten/tentang.php"; ?>
-
-    <!-- About Section -->
+    
+    <!-- Pelayanan Section -->
+    <?php include "konten/igd.php"; ?>
+    <?php include "konten/ralan.php"; ?>
+    <?php include "konten/ranap.php"; ?>
+	<?php include "konten/penunjang.php"; ?>
+    
+    <!-- informasi Pasien -->
     <?php include "konten/jadwal_dokter.php"; ?>
-
-    <!-- Team Section -->
     <?php include "konten/info_kamar.php"; ?>
-	
-	 <?php include "konten/hpk.php"; ?>
-     <?php include "konten/komplain.php"; ?>
-     <?php include "konten/alurpendaftaran.php"; ?>
+	<?php include "konten/hpk.php"; ?>
+    <?php include "konten/alurpendaftaran.php"; ?>
+    <?php include "konten/komplain.php"; ?>
 
-	 <?php include "konten/foto.php"; ?>
-     <?php include "konten/video.php"; ?>
+     <!-- informasi Publik -->
+    
+    <?php include "berita"; ?>
+    
+
+    <!-- Galeri Section -->
+	<?php include "konten/foto.php"; ?>
+    <?php include "konten/video.php"; ?>
 
     <!-- Contact Section -->
     <?php include "konten/kontak.php"; ?>

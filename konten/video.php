@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                   <h2>GALERI VIDEO</h2>
+                   <h2>GALERI VIDEO </h2>
 				   <div class="col-lg-12 text-center">
                                  <div style="width:100%; ;background: white;float:left">
 								 <p class="item-intro text-muted"></p>
